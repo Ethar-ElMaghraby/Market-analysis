@@ -8,6 +8,7 @@ What’s the relationship between age and total spending?
 Which cities generate the highest sales?
 How are customers clustered based on spending and demographics?
 What items are frequently bought together?
+
 🗃️ Dataset
 The grc.csv dataset includes:
 
@@ -16,6 +17,7 @@ The grc.csv dataset includes:
 🛒 Purchase Details (Items Bought, Total Spending)
 
 🧰 Features & Functionalities
+
 🔍 1. Data Cleaning
 Removed duplicates, handled missing values, and filtered out outliers.
 Ensured accurate item listings and consistent data formats.
@@ -30,6 +32,7 @@ K-Means Clustering: Grouped customers by age and spending patterns.
 Apriori Algorithm: Discovered relationships between items using user-defined support and confidence thresholds.
 
 🛠️ Tech Stack
+
 Language: R
 Framework: Shiny
 Libraries:
@@ -39,6 +42,7 @@ dplyr, stringr — Data Manipulation
 DT — Interactive Data Tables
 
 📂 How to Run the Project
+
 Install Required Libraries:
 R
 Copy
@@ -55,6 +59,7 @@ Upload the grc.csv File via the dashboard.
 Adjust Parameters for clustering and association rules, then explore the results!
 
 💡 Insights & Takeaways
+
 Cash payments dominate sales, but certain cities prefer credit.
 Younger customers spend less on average compared to older demographics.
 High-frequency item combinations highlight opportunities for cross-selling.
