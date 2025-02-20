@@ -1,4 +1,5 @@
 📊 Project Overview
+
 This project explores customer purchasing behavior through an interactive R Shiny dashboard built using the grc.csv dataset. The dashboard offers deep insights into sales patterns, spending habits, and item associations—empowering data-driven decision-making for businesses.
 
 ✨ Key Questions Explored:
@@ -10,8 +11,8 @@ How are customers clustered based on spending and demographics?
 What items are frequently bought together?
 
 🗃️ Dataset
-The grc.csv dataset includes:
 
+The grc.csv dataset includes:
 💰 Payment Data (Cash/Credit)
 👥 Customer Demographics (Age, City)
 🛒 Purchase Details (Items Bought, Total Spending)
