@@ -14,6 +14,7 @@ The grc.csv dataset includes:
 💰 Payment Data (Cash/Credit)
 👥 Customer Demographics (Age, City)
 🛒 Purchase Details (Items Bought, Total Spending)
+
 🧰 Features & Functionalities
 🔍 1. Data Cleaning
 Removed duplicates, handled missing values, and filtered out outliers.
@@ -27,6 +28,7 @@ K-Means Clustering (PCA Visualization with Plotly)
 🧮 3. Clustering & Association Rules
 K-Means Clustering: Grouped customers by age and spending patterns.
 Apriori Algorithm: Discovered relationships between items using user-defined support and confidence thresholds.
+
 🛠️ Tech Stack
 Language: R
 Framework: Shiny
@@ -35,6 +37,7 @@ ggplot2, plotly — Data Visualization
 arules, arulesViz — Association Rules
 dplyr, stringr — Data Manipulation
 DT — Interactive Data Tables
+
 📂 How to Run the Project
 Install Required Libraries:
 R
@@ -50,6 +53,7 @@ library(shiny)
 runApp("path_to_project_folder")
 Upload the grc.csv File via the dashboard.
 Adjust Parameters for clustering and association rules, then explore the results!
+
 💡 Insights & Takeaways
 Cash payments dominate sales, but certain cities prefer credit.
 Younger customers spend less on average compared to older demographics.
