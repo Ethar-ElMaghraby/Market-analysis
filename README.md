@@ -4,7 +4,6 @@ This project explores customer purchasing behavior through an interactive R Shin
 ✨ Key Questions Explored:
 
 Which payment method is most popular among customers?
-
 What’s the relationship between age and total spending?
 Which cities generate the highest sales?
 How are customers clustered based on spending and demographics?
